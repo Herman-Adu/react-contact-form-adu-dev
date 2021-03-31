@@ -2,7 +2,8 @@
 import styled from 'styled-components'
 
 const StyledButton = styled.button`
-    background: #E6343B;
+    //background: #01bf71;
+    background: #000;
     border: 0; 
     color: #fff; 
     padding: 1em; 
@@ -10,10 +11,10 @@ const StyledButton = styled.button`
     width: 100%;
     
     &:hover, &:focus {
-        background: #B8161F;
+        background: #01bf71;
         color: #fff; 
         outline: 0; 
-        transition: background-color 2s ease-out; 
+        transition: background-color 0.5s ease-out; 
     }
     
 `; 

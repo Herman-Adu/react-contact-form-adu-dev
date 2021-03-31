@@ -6,7 +6,7 @@ const Title = ({ className, text }) => (
 )
 
 const StyledTitle = styled(Title)`
-    color: #B8161F;
+    color: #000;
     font: 70px; 
     text-align: center; 
     @media (min-width: 700px) {

@@ -8,7 +8,10 @@ const Container = styled.div`
     max-width: 1170px;  
 
     ${props => props.wrapper && css`
-        box-shadow: 0 0 20px 0 rgba(184, 22, 31, 0.3);
+        //box-shadow: 0 0 20px 0 rgba(184, 22, 31, 0.3);
+
+         box-shadow: 0 0 10px 0 #01bf71;
+
         > * {
             padding: 1em; 
         }

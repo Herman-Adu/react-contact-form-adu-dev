@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 
 const WrapperCompanyInfo=styled.div`
-    background: #E6343B;
+    //background: #E6343B;
+    background: #000;
 `; 
 
 const CompanyName = styled.h3`
@@ -20,6 +21,8 @@ const WrapperList = styled.ul`
     margin:0 0 1rem 0;
     padding:0;
     text-align: center;
+    color: #fff;
+    
     @media (min-width: 700px) {
         text-align: left; 
     }
